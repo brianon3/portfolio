@@ -3,31 +3,34 @@
     text-align: center;
     background-color: #282c34;
     color: white;
-    padding: 20px;
+    padding: 2vw; /* padding relativo */
 }
 
 .about {
-    margin: 20px;
-    padding: 10px;
+    margin: 2vw;
+    padding: 1vw;
     background-color: #f0f0f0;
 }
 
 .projects {
-    margin: 20px;
-    padding: 10px;
+    margin: 2vw;
+    padding: 1vw;
     background-color: #e0e0e0;
 }
 
 /* Selector por ID */
 #name {
-    font-size: 2.5em;
+    font-size: 4vw; /* tamaño relativo */
     color: #ff5733;
+    margin-bottom: 1vw;
 }
 
 #profile-pic {
     border-radius: 50%;
     display: block;
-    margin: 10px auto;
+    margin: 1vw auto;
+    max-width: 100%;  /* imagen fluida */
+    height: auto;
 }
 
 /* Estilos generales */
@@ -39,11 +42,30 @@ body {
 
 h2 {
     color: #333;
+    font-size: 3vw; /* tamaño relativo */
 }
 
+/* Footer */
 footer {
     text-align: center;
     background-color: #282c34;
     color: white;
-    padding: 10px;
+    padding: 1vw;
+}
+
+/* Media queries para pantallas pequeñas */
+@media (max-width: 600px) {
+    .header {
+        padding: 4vw;
+    }
+    .about, .projects {
+        margin: 4vw 2vw;
+        padding: 2vw;
+    }
+    #name {
+        font-size: 6vw;
+    }
+    h2 {
+        font-size: 5vw;
+    }
 }
