@@ -1,9 +1,8 @@
-/* Selector por clase */
 .header {
     text-align: center;
     background-color: #282c34;
     color: white;
-    padding: 2vw; /* padding relativo */
+    padding: 2vw;
 }
 
 .about {
@@ -18,9 +17,8 @@
     background-color: #e0e0e0;
 }
 
-/* Selector por ID */
 #name {
-    font-size: 4vw; /* tamaño relativo */
+    font-size: 4vw;
     color: #ff5733;
     margin-bottom: 1vw;
 }
@@ -29,11 +27,10 @@
     border-radius: 50%;
     display: block;
     margin: 1vw auto;
-    max-width: 100%;  /* imagen fluida */
+    max-width: 100%;
     height: auto;
 }
 
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -42,10 +39,9 @@ body {
 
 h2 {
     color: #333;
-    font-size: 3vw; /* tamaño relativo */
+    font-size: 3vw;
 }
 
-/* Footer */
 footer {
     text-align: center;
     background-color: #282c34;
@@ -53,7 +49,6 @@ footer {
     padding: 1vw;
 }
 
-/* Media queries para pantallas pequeñas */
 @media (max-width: 600px) {
     .header {
         padding: 4vw;
